@@ -14,20 +14,20 @@
           "tier": "Standard"
         }
       },
-      "sqlServerAdministratorLogin" : {
+      "sqlServerAdministratorLogin": {
         "reference": {
-            "keyVault": {
-                "id": "/subscriptions/010fd40c-687a-4665-bfcf-04bffb0fbadd/resourceGroups/learn-5bc70929-3a56-4836-a234-77f075a5057e/providers/Microsoft.KeyVault/vaults/AI-VAULT0202"
-            },
-            "secretName": "sqlServerAdministratorLogin"
+          "keyVault": {
+            "id": "/subscriptions/55748127-c6a0-4f2d-935a-c291a0da02a0/resourceGroups/Test01/providers/Microsoft.KeyVault/vaults/aitestvault01"
+          },
+          "secretName": "sqlServerAdministratorLogin"
         }
       },
-      "sqlServerAdministratorPassword":{
+      "sqlServerAdministratorPassword": {
         "reference": {
-            "keyVault": {
-                "id": "/subscriptions/010fd40c-687a-4665-bfcf-04bffb0fbadd/resourceGroups/learn-5bc70929-3a56-4836-a234-77f075a5057e/providers/Microsoft.KeyVault/vaults/AI-VAULT0202"
-            },
-            "secretName": "sqlServerAdministratorPassword"
+          "keyVault": {
+            "id": "/subscriptions/55748127-c6a0-4f2d-935a-c291a0da02a0/resourceGroups/Test01/providers/Microsoft.KeyVault/vaults/aitestvault01"
+          },
+          "secretName": "sqlServerAdministratorPassword"
         }
       }
     }
